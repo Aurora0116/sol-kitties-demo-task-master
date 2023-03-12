@@ -1,0 +1,34 @@
+.custom-wallet-button {
+    background: transparent;
+    padding: 0;
+    width: auto;
+    border: none;
+    .wallet-wrap {
+        display: flex;
+        justify-content: right;
+        position: relative;
+    }
+    img {
+        border-radius: 0;
+        border-right: 2px solid #47deff;
+        padding: 5px;
+        width: 20%;
+    }
+    .connect-info {
+        align-items: center;
+        background-color: #04386c;
+        border: 2px solid #47deff;
+        border-radius: 9px;
+        cursor: pointer;
+        display: flex;
+        max-width: 190px;
+        text-transform: uppercase;
+        span {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.1;
+            width: 100%;
+        }
+    }
+}
